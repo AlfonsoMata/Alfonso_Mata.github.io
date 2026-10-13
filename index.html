@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tu Nombre | Portafolio</title>
+  <meta name="description" content="Portafolio de Tu Nombre: proyectos, habilidades y contacto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <div class="layout">
+
+    <!-- Barra lateral (arriba en móvil) -->
+    <header class="sidebar">
+      <a class="logo" href="#inicio">Tu Nombre</a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <ul class="social">
+        <!-- Cambia los enlaces por los tuyos -->
+        <li><a href="https://github.com/tu-usuario" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/tu-usuario" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </header>
+
+    <main id="contenido">
+
+      <!-- Portada -->
+      <section id="inicio" class="hero">
+        <p class="hero-role">Desarrollador web · Diseñador · Creador</p>
+        <h1>Hola, soy Tu&nbsp;Nombre. Construyo cosas útiles para la web.</h1>
+        <p class="hero-text">Escribe aquí una o dos frases sobre lo que haces y para quién lo haces. Sé específico: qué problemas resuelves y con qué herramientas.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn-ghost" href="#contacto">Contactarme</a>
+        </div>
+      </section>
+
+      <!-- Sobre mí -->
+      <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <div class="about">
+          <img class="avatar" src="https://placehold.co/320x320?text=Tu+foto" alt="Foto de Tu Nombre" width="160" height="160">
+          <div class="prose">
+            <p>Cuenta tu historia en un párrafo corto: dónde estudias o trabajas, qué te apasiona y qué estás aprendiendo ahora.</p>
+            <p>Agrega un segundo párrafo con algo personal: pasatiempos, intereses o lo que buscas en tu próximo proyecto.</p>
+            <p><a class="link" href="cv.pdf">Descargar CV</a></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="projects">
+
+          <article class="project">
+            <div class="thumb" style="--tint: var(--accent)" aria-hidden="true">P1</div>
+            <div class="project-body">
+              <h3>Nombre del proyecto uno</h3>
+              <p>Describe en una frase qué hace el proyecto y cuál fue tu papel.</p>
+              <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
+              <p class="project-links">
+                <a class="link" href="#" target="_blank" rel="noopener">Ver demo</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Ver código</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="thumb" style="--tint: var(--accent-2)" aria-hidden="true">P2</div>
+            <div class="project-body">
+              <h3>Nombre del proyecto dos</h3>
+              <p>Describe en una frase qué hace el proyecto y cuál fue tu papel.</p>
+              <ul class="tags"><li>React</li><li>API REST</li></ul>
+              <p class="project-links">
+                <a class="link" href="#" target="_blank" rel="noopener">Ver demo</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Ver código</a>
+              </p>
+            </div>
+          </article>
+
+          <article class="project">
+            <div class="thumb" style="--tint: var(--accent-3)" aria-hidden="true">P3</div>
+            <div class="project-body">
+              <h3>Nombre del proyecto tres</h3>
+              <p>Describe en una frase qué hace el proyecto y cuál fue tu papel.</p>
+              <ul class="tags"><li>Python</li><li>SQL</li></ul>
+              <p class="project-links">
+                <a class="link" href="#" target="_blank" rel="noopener">Ver demo</a>
+                <a class="link" href="#" target="_blank" rel="noopener">Ver código</a>
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Habilidades -->
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills">
+          <div>
+            <h3>Desarrollo</h3>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+          </div>
+          <div>
+            <h3>Diseño</h3>
+            <ul class="tags"><li>Figma</li><li>UI/UX</li><li>Prototipado</li></ul>
+          </div>
+          <div>
+            <h3>Idiomas</h3>
+            <ul class="tags"><li>Español nativo</li><li>Inglés intermedio</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiencia -->
+      <section id="experiencia">
+        <h2>Experiencia</h2>
+        <ol class="timeline">
+          <li>
+            <span class="date">2024 – Actualidad</span>
+            <h3>Puesto o rol · Empresa</h3>
+            <p>Resume en una o dos líneas tus responsabilidades y logros principales.</p>
+          </li>
+          <li>
+            <span class="date">2022 – 2024</span>
+            <h3>Puesto o rol · Empresa</h3>
+            <p>Resume en una o dos líneas tus responsabilidades y logros principales.</p>
+          </li>
+          <li>
+            <span class="date">2018 – 2022</span>
+            <h3>Carrera o curso · Institución</h3>
+            <p>Menciona lo más relevante de tu formación.</p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p class="prose">¿Tienes un proyecto o una oferta? Escríbeme y respondo en uno o dos días.</p>
+        <p><a class="mail" href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></p>
+      </section>
+
+      <footer class="footer">
+        <p>© <span id="anio">2026</span> Tu Nombre. Hecho con HTML y CSS.</p>
+      </footer>
+
+    </main>
+  </div>
+
+  <script>
+    document.getElementById('anio').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
